@@ -1,5 +1,3 @@
-While
-
 import java.util.Scanner;
 
 public class Main {
@@ -11,6 +9,5 @@ public class Main {
       Scanner entrada = new Scanner(System.in);
       opcao = entrada.nextInt();
     }
-}
- }
+  }
 }
