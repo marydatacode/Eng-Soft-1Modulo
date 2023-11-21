@@ -9,19 +9,19 @@ class Main {
         int passarosPrimeira = 0;
         int passarosSegunda = 0;
     
-        //Laço de repetição para o cálcular o total de passaros
+        //Laço de repetição para cálcular o total de passaros
         for (int i=0; i<14; i++){
         totalPassaros = totalPassaros + passarosPorDia[i];
         }
         System.out.println(totalPassaros);
     
-        //Laço de repetição para o cálcular o total de passaros na primeira semana
+        //Laço de repetição para cálcular o total de passaros na primeira semana
         for (int i=0; i<7; i++){
           passarosPrimeira = passarosPrimeira + passarosPorDia[i]; //o [i] serve para ir varrendo o Array, analisando o loop ate chegar na parada determinada
         }
         System.out.println(passarosPrimeira);
     
-        //Laço de repetição para o cálcular o total de passaros na segunda semana
+        //Laço de repetição para cálcular o total de passaros na segunda semana
         for (int i=7; i<14; i++){
           passarosSegunda = passarosSegunda + passarosPorDia[i];
         }
